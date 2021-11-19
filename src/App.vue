@@ -1,6 +1,7 @@
 <template>
   <div id="app">
    <NavBar/>
+   <SliderFirst/>
 
     <router-view/>
   </div>
@@ -8,10 +9,12 @@
 
 <script>
   import NavBar from '@/components/NavBar.vue'
+  import SliderFirst from '@/components/SliderFirst.vue'
     
   export default {
     components: {
-      NavBar
+      NavBar,
+      SliderFirst
     }
   }
 </script>

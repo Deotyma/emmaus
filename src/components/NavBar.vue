@@ -1,6 +1,6 @@
 <template>
   <div>
-  <b-navbar toggleable="lg" type="dark" class="navigation sticky-top">
+  <b-navbar toggleable="lg" type="dark" class="navigation fixed-top">
     <img src="../assets/logo-tremma-emmaus.0f7f9fa5.svg" class="logo">
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
